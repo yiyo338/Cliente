@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Odyssey.jnlp">
+  <information>
+    <title>Odyssey</title>
+    <vendor>cris</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Odyssey.jar" size="90746" download="eager" />
+    <jar href="lib/commons-codec-1.9.jar" size="263965" download="eager" />
+    <jar href="lib/commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="lib/gson-2.2.1.jar" size="189617" download="eager" />
+    <jar href="lib/httpclient-4.5.2.jar" size="736658" download="eager" />
+    <jar href="lib/httpclient-cache-4.5.2.jar" size="158984" download="eager" />
+    <jar href="lib/httpcore-4.4.4.jar" size="326724" download="eager" />
+    <jar href="lib/jl1.0.1.jar" size="105363" download="eager" />
+    <jar href="lib/json-simple-1.1.jar" size="16046" download="eager" />
+    <jar href="lib/nv-i18n-1.23.jar" size="340260" download="eager" />
+    <jar href="lib/org.apache.commons.io.jar" size="83613" download="eager" />
+    <jar href="lib/spotify-web-api-java-2.0.2.jar" size="447834" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Odyssey" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="odysseyUI.Odyssey"  name="Odyssey" />
+  <update check="always"/>
+</jnlp>

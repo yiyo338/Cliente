@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="243.0" prefWidth="429.0" style="-fx-background-color: #FFFFFF;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9" fx:controller="odysseyUI.SeleccionCancionController">
+   <children>
+      <TextField fx:id="nombre" layoutX="34.0" layoutY="42.0" />
+      <TextField fx:id="artista" layoutX="34.0" layoutY="100.0" />
+      <TextField fx:id="album" layoutX="34.0" layoutY="157.0" />
+      <Label layoutX="34.0" layoutY="14.0" text="Nombre" />
+      <Label layoutX="35.0" layoutY="76.0" text="Artista" />
+      <Label layoutX="34.0" layoutY="135.0" text="Album" />
+      <Button layoutX="248.0" layoutY="26.0" mnemonicParsing="false" onAction="#seleccionar" text="Seleccionar Canción" />
+      <ImageView fitHeight="126.0" fitWidth="150.0" layoutX="259.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../odyssey/Images/LogoSample_ByTailorBrands.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="mensaje" layoutX="269.0" layoutY="62.0" text="No seleccionada" />
+      <Button layoutX="36.0" layoutY="195.0" mnemonicParsing="false" onAction="#listo" text="Listo" />
+   </children>
+</AnchorPane>
